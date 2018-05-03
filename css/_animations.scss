@@ -1,0 +1,70 @@
+@include animation(jumpTheArrow){
+  0% {
+    top: -10px;
+  }
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: -10px;
+  }
+}
+  
+@include animation(walkthecloud) {
+  from { @include transform(translateX(-200px)); }
+  to { @include transform(translateX(calc(100vw + 200px))); }
+}
+
+@include animation(spin) {
+  100% { @include transform(rotate(360deg)); } 
+}
+
+@include animation(vroomvroom) {
+  from { @include transform(translateX(-200px)); }
+  to { @include transform(translateX(calc(100vw + 100px))); }
+}
+
+@include animation(showAgilityText) {
+  0% { opacity: 0; }
+  30% { opacity: 1;}
+  100% { opacity: 1; }
+}
+
+@include animation(showTrophy) {
+  0% { @include transform(translateY(100%)); opacity: 1; }
+  30% { @include transform(translateY(0));  opacity: 1;}
+  100% { @include transform(translateY(0)); opacity: 1; }
+}
+
+@include animation(clockMove) {
+  0% { @include transform(rotateX(0deg) rotateY(0deg) rotateZ(0deg)); }
+  25% { @include transform(translateY(-25px) rotateX(0deg) rotateY(0deg) rotateZ(5deg)); }
+  50% { @include transform(rotateX(0deg) rotateY(0deg) rotateZ(0deg)); }
+  75% { @include transform(translateY(15px) rotateX(0deg) rotateY(0deg) rotateZ(-5deg)); }
+  100% { @include transform(rotateX(0deg) rotateY(0deg) rotateZ(0deg)); }
+}
+
+@include animation(clockStuffMove) {
+  0% { @include transform(translateY(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)); }
+  25% { @include transform(translateY(-8px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)); }
+  75% { @include transform(translateY(-5px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)); }
+  100% { @include transform(translateY(0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg)); }
+}
+
+@include animation(showFeedbackLeft) {
+  0% { @include transform(translateX(-200px)); opacity: 0; }
+  30% { @include transform(translateX(0));  opacity: 1;}
+  100% { @include transform(translateX(0)); opacity: 1; }
+}
+
+@include animation(showFeedbackRight) {
+  0% { @include transform(translateX(200px)); opacity: 0; }
+  30% { @include transform(translateX(0));  opacity: 1;}
+  100% { @include transform(translateX(0)); opacity: 1; }
+}
+
+@include animation(showGraph) {
+  from { @include transform(scaleY(0) translateY(-200px)); transform-origin: bottom; }
+  to { @include transform(scaleY(1) translateY(0px)); transform-origin: bottom; }
+}
+

@@ -1,0 +1,18 @@
+/* introduction */
+.section-introduction {
+	background-color: $blue-2;
+	height: 600px;
+	padding: 35px $padding-lateral;
+}
+
+.section__centered-text-group {
+	align-items: center;
+	display: flex;
+	height: 600px;
+	justify-content: center;
+}
+
+.centered-text-group__content {
+	margin-top: $arrow-distance;
+	width: 450px;
+}

@@ -1,0 +1,53 @@
+// include keyframe animations that work in every browser
+@mixin animation($name) {
+  @keyframes #{$name} {
+    @content;
+  }
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+}
+
+// include animations that work in every browser
+@mixin browsers($info) {
+  animation: $info;
+  -webkit-animation: $info;
+  -moz-animation: $info;
+  -ms-animation: $info;
+  -o-animation: $info;
+}
+
+// include transformations that work in every browser
+@mixin transform($info) {
+  transform: $info;
+  -webkit-transform: $info;
+  -moz-transform: $info;
+  -ms-transform: $info;
+}
+
+// change bg color according to class name
+@mixin bg-color() {
+  @each $color, $value in $colors {
+    .#{$color} {
+      background-color: $value;
+    }
+  }
+}
+
+// change text color according to class name
+@mixin text-color() {
+  @each $color, $value in $colors {
+    .text-#{$color} {
+      color: $value;
+    }
+  }
+}
+
+@include bg-color;
+@include text-color;

@@ -1,0 +1,42 @@
+.section__btn-wrapper {
+	cursor: pointer;
+	display: flex;
+	justify-content: center;
+	margin-top: $arrow-distance;
+	position: relative;
+	@include browsers(jumpTheArrow 1.5s infinite linear);
+}
+
+.btn-wrapper__arrow {
+	background-color: $white-1;
+	border-radius: 5px;
+	height: 35px;
+	width: 8px;
+	@include transform(rotate(45deg));
+	&:before {
+		background-color: $white-1;
+		border-radius: 5px;
+		bottom: -14px;
+		content: '';
+		height: 35px;
+		left: -14px;
+		position: absolute;
+		width: 8px;
+		@include transform(rotate(-90deg));
+	}
+}
+
+button {
+	border-radius: 5px;
+	color: #fff;
+	cursor: pointer;
+	font-family: lato;
+	font-size: 18px;
+	padding: 8px 24px;
+	&:focus {
+		outline: 0;
+	}
+	&:hover {
+		@include transform(scale(1.1));
+	}
+}

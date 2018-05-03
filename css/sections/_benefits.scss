@@ -1,0 +1,75 @@
+/* benefits */
+.section-benefits__illustration-wrapper {
+	margin-left: calc(-1 * #{$padding-lateral});
+	width: 100vw;
+}
+
+.section-benefits__trophy-wrapper {
+	border-top: 2px dashed $beige-1;
+	display: flex;
+	margin-top: 40px;
+	padding: 50px 10% 0 10%;
+}
+
+.trophy-wrapper__img-wrapper {
+	max-width: 300px;
+	width: 75%;
+	svg {
+		border-radius: 100%;
+		overflow-y: hidden;
+	}
+}
+
+.trophy-wrapper__text-wrapper {
+	align-self: center;
+	padding: 0 50px;
+	text-align: left;
+}
+
+/* medal */
+.section-medal__slider {
+	position: relative;
+}
+
+.slider__img {
+	background-color: $beige-1;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.section-medal__slider .resize {
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	width: 50%;
+}
+
+.handle { 
+  background: $pink-1;
+  border-radius: 5px;
+  bottom: 0;
+  cursor: ew-resize;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.handle:after {
+	background: $pink-1;
+	border-radius: 5px;
+	content:'◂▸';
+	color: $beige-1;
+	font-size: 36px;
+	height: 30px;
+	line-height: 24px;
+	margin: 0 -18px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transition: all 0.3s ease; 
+	width: 40px;
+}

@@ -1,0 +1,16 @@
+ /* myths */
+ .myth-wrapper__myth-item {
+ 	display: flex;
+ 	margin: 40px 0;
+ }
+
+ .myth-item__text-wrapper {
+ 	align-self: center;
+ 	padding: 0 50px;
+ 	&.left-align {
+ 		text-align: left;
+ 	}
+ 	&.right-align {
+ 		text-align: right;
+ 	}
+ }

@@ -1,0 +1,42 @@
+/* what is agility */
+.section-whatisagility__illustration-wrapper {
+	margin: 25px 0 25px calc(-1 * #{$padding-lateral});
+	width: 100vw;
+}
+
+.section-whatisagility__circle-wrapper {
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+
+@for $i from 1 through 10 {  
+  g.cloud#{$i} {
+    $delay: random(250)*-1 + s;
+    $speed: random(100) + 100 + s;
+    @include browsers(walkthecloud $speed $delay linear infinite);
+   }
+}
+
+.svg__bus {
+	@include browsers(vroomvroom 15s linear infinite);
+	&.wheels {
+	  @include browsers(spin 0.4s linear infinite);
+	}
+}
+
+.circle-wrapper__circle {
+	align-items: center;
+	background-color: $blue-1;
+	border-radius: 100%;
+	display: flex;
+	height: 150px;
+	justify-content: center;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	width: 150px;
+}
+
+.circle__p {
+	padding: 15px;
+}
