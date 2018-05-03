@@ -179,74 +179,74 @@ section {
   justify-content: center; }
 
 g.cloud1 {
-  animation: walkthecloud 157s -3s linear infinite;
-  -webkit-animation: walkthecloud 157s -3s linear infinite;
-  -moz-animation: walkthecloud 157s -3s linear infinite;
-  -ms-animation: walkthecloud 157s -3s linear infinite;
-  -o-animation: walkthecloud 157s -3s linear infinite; }
+  animation: walkthecloud 148s -33s linear infinite;
+  -webkit-animation: walkthecloud 148s -33s linear infinite;
+  -moz-animation: walkthecloud 148s -33s linear infinite;
+  -ms-animation: walkthecloud 148s -33s linear infinite;
+  -o-animation: walkthecloud 148s -33s linear infinite; }
 
 g.cloud2 {
-  animation: walkthecloud 122s -146s linear infinite;
-  -webkit-animation: walkthecloud 122s -146s linear infinite;
-  -moz-animation: walkthecloud 122s -146s linear infinite;
-  -ms-animation: walkthecloud 122s -146s linear infinite;
-  -o-animation: walkthecloud 122s -146s linear infinite; }
+  animation: walkthecloud 122s -73s linear infinite;
+  -webkit-animation: walkthecloud 122s -73s linear infinite;
+  -moz-animation: walkthecloud 122s -73s linear infinite;
+  -ms-animation: walkthecloud 122s -73s linear infinite;
+  -o-animation: walkthecloud 122s -73s linear infinite; }
 
 g.cloud3 {
-  animation: walkthecloud 191s -213s linear infinite;
-  -webkit-animation: walkthecloud 191s -213s linear infinite;
-  -moz-animation: walkthecloud 191s -213s linear infinite;
-  -ms-animation: walkthecloud 191s -213s linear infinite;
-  -o-animation: walkthecloud 191s -213s linear infinite; }
+  animation: walkthecloud 156s -142s linear infinite;
+  -webkit-animation: walkthecloud 156s -142s linear infinite;
+  -moz-animation: walkthecloud 156s -142s linear infinite;
+  -ms-animation: walkthecloud 156s -142s linear infinite;
+  -o-animation: walkthecloud 156s -142s linear infinite; }
 
 g.cloud4 {
-  animation: walkthecloud 114s -241s linear infinite;
-  -webkit-animation: walkthecloud 114s -241s linear infinite;
-  -moz-animation: walkthecloud 114s -241s linear infinite;
-  -ms-animation: walkthecloud 114s -241s linear infinite;
-  -o-animation: walkthecloud 114s -241s linear infinite; }
+  animation: walkthecloud 163s -167s linear infinite;
+  -webkit-animation: walkthecloud 163s -167s linear infinite;
+  -moz-animation: walkthecloud 163s -167s linear infinite;
+  -ms-animation: walkthecloud 163s -167s linear infinite;
+  -o-animation: walkthecloud 163s -167s linear infinite; }
 
 g.cloud5 {
-  animation: walkthecloud 103s -8s linear infinite;
-  -webkit-animation: walkthecloud 103s -8s linear infinite;
-  -moz-animation: walkthecloud 103s -8s linear infinite;
-  -ms-animation: walkthecloud 103s -8s linear infinite;
-  -o-animation: walkthecloud 103s -8s linear infinite; }
+  animation: walkthecloud 157s -2s linear infinite;
+  -webkit-animation: walkthecloud 157s -2s linear infinite;
+  -moz-animation: walkthecloud 157s -2s linear infinite;
+  -ms-animation: walkthecloud 157s -2s linear infinite;
+  -o-animation: walkthecloud 157s -2s linear infinite; }
 
 g.cloud6 {
-  animation: walkthecloud 145s -73s linear infinite;
-  -webkit-animation: walkthecloud 145s -73s linear infinite;
-  -moz-animation: walkthecloud 145s -73s linear infinite;
-  -ms-animation: walkthecloud 145s -73s linear infinite;
-  -o-animation: walkthecloud 145s -73s linear infinite; }
+  animation: walkthecloud 197s -4s linear infinite;
+  -webkit-animation: walkthecloud 197s -4s linear infinite;
+  -moz-animation: walkthecloud 197s -4s linear infinite;
+  -ms-animation: walkthecloud 197s -4s linear infinite;
+  -o-animation: walkthecloud 197s -4s linear infinite; }
 
 g.cloud7 {
-  animation: walkthecloud 152s -80s linear infinite;
-  -webkit-animation: walkthecloud 152s -80s linear infinite;
-  -moz-animation: walkthecloud 152s -80s linear infinite;
-  -ms-animation: walkthecloud 152s -80s linear infinite;
-  -o-animation: walkthecloud 152s -80s linear infinite; }
+  animation: walkthecloud 151s -194s linear infinite;
+  -webkit-animation: walkthecloud 151s -194s linear infinite;
+  -moz-animation: walkthecloud 151s -194s linear infinite;
+  -ms-animation: walkthecloud 151s -194s linear infinite;
+  -o-animation: walkthecloud 151s -194s linear infinite; }
 
 g.cloud8 {
-  animation: walkthecloud 150s -28s linear infinite;
-  -webkit-animation: walkthecloud 150s -28s linear infinite;
-  -moz-animation: walkthecloud 150s -28s linear infinite;
-  -ms-animation: walkthecloud 150s -28s linear infinite;
-  -o-animation: walkthecloud 150s -28s linear infinite; }
+  animation: walkthecloud 167s -248s linear infinite;
+  -webkit-animation: walkthecloud 167s -248s linear infinite;
+  -moz-animation: walkthecloud 167s -248s linear infinite;
+  -ms-animation: walkthecloud 167s -248s linear infinite;
+  -o-animation: walkthecloud 167s -248s linear infinite; }
 
 g.cloud9 {
-  animation: walkthecloud 149s -3s linear infinite;
-  -webkit-animation: walkthecloud 149s -3s linear infinite;
-  -moz-animation: walkthecloud 149s -3s linear infinite;
-  -ms-animation: walkthecloud 149s -3s linear infinite;
-  -o-animation: walkthecloud 149s -3s linear infinite; }
+  animation: walkthecloud 133s -118s linear infinite;
+  -webkit-animation: walkthecloud 133s -118s linear infinite;
+  -moz-animation: walkthecloud 133s -118s linear infinite;
+  -ms-animation: walkthecloud 133s -118s linear infinite;
+  -o-animation: walkthecloud 133s -118s linear infinite; }
 
 g.cloud10 {
-  animation: walkthecloud 145s -237s linear infinite;
-  -webkit-animation: walkthecloud 145s -237s linear infinite;
-  -moz-animation: walkthecloud 145s -237s linear infinite;
-  -ms-animation: walkthecloud 145s -237s linear infinite;
-  -o-animation: walkthecloud 145s -237s linear infinite; }
+  animation: walkthecloud 184s -31s linear infinite;
+  -webkit-animation: walkthecloud 184s -31s linear infinite;
+  -moz-animation: walkthecloud 184s -31s linear infinite;
+  -ms-animation: walkthecloud 184s -31s linear infinite;
+  -o-animation: walkthecloud 184s -31s linear infinite; }
 
 .svg__bus {
   animation: vroomvroom 15s linear infinite;
@@ -266,11 +266,13 @@ g.cloud10 {
   background-color: #152168;
   border-radius: 100%;
   display: flex;
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 150px;
   height: 150px;
   justify-content: center;
   margin-left: 5vw;
-  margin-right: 5vw;
-  width: 150px; }
+  margin-right: 5vw; }
 
 .circle__p {
   padding: 15px; }

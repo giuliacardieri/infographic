@@ -30,11 +30,14 @@
 	background-color: $blue-1;
 	border-radius: 100%;
 	display: flex;
+	flex-grow: 0;
+	flex-shrink: 0;
+	flex-basis: 150px;
 	height: 150px;
 	justify-content: center;
 	margin-left: 5vw;
 	margin-right: 5vw;
-	width: 150px;
+
 }
 
 .circle__p {
