@@ -1,19 +1,19 @@
 /* myths */
-/* hype */
-.hy0{ fill:#d52b55 }
-.st1{ fill:#cdd0ec }
+.hy0 { 
+	fill: $pink-2; 
+}
 
 .hy3 {
 	fill: none;
-	stroke: #91233f;
-	stroke-width: 2.2698;
+	stroke: $pink-1;
+	stroke-width: 2;
 	stroke-miterlimit: 10;
 }
 
 .hy5 {
 	fill: none;
-	stroke: #d52b55;
-	stroke-width: 4.9946;
+	stroke: $pink-2;
+	stroke-width: 5;
 	stroke-miterlimit: 10;
 }
 
@@ -22,4 +22,35 @@
 	font-family: lato;
 	font-size:20px;
 	font-weight: 400;
+	&.small {
+		font-size: 14px;
+	}
+}
+
+.ph5 {
+	fill: none;
+	stroke: $pink-1;
+	stroke-width: 4; 
+	stroke-miterlimit: 10;
+}
+
+.ca1 {
+	opacity: 0.075;
+}
+
+.ca11 { 
+	fill: none;
+	stroke: $pink-1;
+	stroke-width: 5;
+	stroke-miterlimit: 10;
+}
+
+.text-calendar {
+	fill: $pink-2;
+	font-family: 'Asap';
+	font-size: 48px;
+	&.small {
+		fill: $blue-4;
+		font-size: 10px;
+	}
 }

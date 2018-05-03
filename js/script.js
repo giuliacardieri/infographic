@@ -85,25 +85,38 @@ $(document).ready(function() {
 
 		// actions when scroll happens
   $(window).scroll(function() {
-    if (($('.section-whatisagility').offset().top <= $(window).scrollTop()) && 
-    	($('.section-benefits').offset().top) > $(window).scrollTop()) {
-	      	$('.svg__text').addClass('animated');
+    if (($('.section-whatisagility').offset().top <= $(window).scrollTop()) && ($('.section-benefits').offset().top) > $(window).scrollTop())
+	  {
+	    $('.svg__text').addClass('animated');
+  		$('.animated-element:not(.svg__text)').removeClass('animated');
   	} else if (
   		($('.section-benefits').offset().top <= $(window).scrollTop()) && 
   		($('.section-medal').offset().top) > $(window).scrollTop()) {
-	      	$('.clock').addClass('animated');
+
+	      $('.clock').addClass('animated');
+  			$('.animated-element').not('.clock, .feedback, .graph, .trophy').removeClass('animated');
+
 	      if (($('.section-benefits__illustration-wrapper.illustration-1').offset().top <= $(window).scrollTop()) && 
     		($('.section-medal').offset().top) > $(window).scrollTop()) {
+
 	      	$('.feedback').addClass('animated');
+  				$('.animated-element').not('.clock, .feedback, .graph, .trophy').removeClass('animated');
     		}
 	      if (($('.section-benefits__illustration-wrapper.illustration-2').offset().top <= $(window).scrollTop()) && 
     		($('.section-medal').offset().top) > $(window).scrollTop()) {
+
 	      	$('.graph').addClass('animated');
+  				$('.animated-element').not('.clock, .feedback, .graph, .trophy').removeClass('animated');
     		}
 	      if (($('.section-benefits__illustration-wrapper.illustration-3').offset().top <= $(window).scrollTop()) && 
     		($('.section-medal').offset().top) > $(window).scrollTop()) {
+
 	      	$('.trophy').addClass('animated');
+  				$('.animated-element').not('.clock, .feedback, .graph, .trophy').removeClass('animated');
     		}
+  	}
+  	else {
+  		$('.animated-element').removeClass('animated');
   	}
   });
 
