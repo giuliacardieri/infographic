@@ -32,22 +32,19 @@
 }
 
 // change bg color according to class name
-@mixin bg-color() {
+@mixin colors() {
   @each $color, $value in $colors {
     .#{$color} {
       background-color: $value;
     }
-  }
-}
-
-// change text color according to class name
-@mixin text-color() {
-  @each $color, $value in $colors {
     .text-#{$color} {
       color: $value;
+    }
+    .fill-#{$color} {
+      fill: $value;
     }
   }
 }
 
-@include bg-color;
-@include text-color;
+
+@include colors;

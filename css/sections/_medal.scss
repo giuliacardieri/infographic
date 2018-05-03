@@ -1,0 +1,48 @@
+/* medal */
+.section-medal__slider {
+	margin: 40px 0;
+	position: relative;
+}
+
+.slider__img {
+	background-color: $beige-1;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+
+.section-medal__slider .resize {
+	height: 100%;
+	left: 0;
+	overflow: hidden;
+	position: absolute;
+	top:0;
+	width: 50%;
+}
+
+.handle { 
+  background: $pink-1;
+  border-radius: 5px;
+  bottom: 0;
+  cursor: ew-resize;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  width: 5px;
+}
+
+.handle:after {
+	background: $pink-1;
+	border-radius: 5px;
+	content:'◂▸';
+	color: $beige-1;
+	font-size: 36px;
+	height: 30px;
+	line-height: 24px;
+	margin: 0 -18px;
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	transition: all 0.3s ease; 
+	width: 40px;
+}

@@ -4,9 +4,14 @@
  	margin: 40px 0;
  }
 
+ .myth-item__illustration-wrapper {
+ 	width: 50%;
+ }
+
  .myth-item__text-wrapper {
  	align-self: center;
  	padding: 0 50px;
+ 	width: 50%;
  	&.left-align {
  		text-align: left;
  	}

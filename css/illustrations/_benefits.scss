@@ -1,0 +1,73 @@
+/* trophy */
+.tp1 {
+	fill: none;
+	stroke: $yellow-1; 
+	stroke-width: 8; 
+	stroke-miterlimit: 10;
+}
+
+.tp4-text {
+	font-family: 'Asap';
+	font-size: 24px;
+	&.bigger {
+		font-weight: 500;
+		font-size: 60px;
+	}
+}
+
+.trophy {
+	opacity: 0;
+	&.animated {
+		@include browsers(showTrophy 6s ease-out);
+		opacity: 1;
+	}
+}
+
+/* benefits */
+.be0{
+	fill: #d990a2;
+}
+
+.be8{
+	enable-background: new;
+}
+
+.text-svg {
+	fill: $beige-1;
+	font-family: lato;
+	font-size: 30px; 
+}
+
+/* clock */
+.clock.animated {
+	position: relative;
+	@include browsers(clockMove 0.5s linear 10);
+	.clock-stuff {
+		@include browsers(clockStuffMove 0.25s linear 10);
+	}
+}
+
+/* feedback */
+.feedback {
+	opacity: 0;
+	&.animated {
+		overflow: hidden;
+		opacity: 1;
+		position: relative;
+		.sad {
+			@include browsers(showFeedbackRight 1s ease-out);
+		}
+		.happy {
+			@include browsers(showFeedbackLeft 1s ease-out);
+		}
+	}
+}
+
+/* productivity */
+.graph {
+	opacity: 0;
+	&.animated {
+		opacity: 1;
+		@include browsers(showGraph 0.75s ease-out);
+	}
+}
