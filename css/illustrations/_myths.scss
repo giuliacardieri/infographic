@@ -17,6 +17,13 @@
 	stroke-miterlimit: 10;
 }
 
+.megaphone.animated {
+	@include browsers(megaphoneShake 0.8s infinite ease-in);
+	.megaphone-stuff {
+		@include browsers(opacity-fast 1s infinite ease-in-out);
+	}
+}
+
 .text-myth {
 	fill: $white-1;
 	font-family: lato;
@@ -34,6 +41,10 @@
 	stroke-miterlimit: 10;
 }
 
+.rounded-telephone.animated {
+	@include browsers(spinPhone 2s infinite ease-out)
+}
+
 .ca1 {
 	opacity: 0.075;
 }
@@ -43,6 +54,14 @@
 	stroke: $pink-1;
 	stroke-width: 5;
 	stroke-miterlimit: 10;
+}
+
+.x-calendar {
+	opacity: 0;
+	&.animated {
+		opacity: 1;
+		@include browsers(showX 2s 1 linear);
+	}
 }
 
 .text-calendar {
@@ -62,6 +81,18 @@
 	stroke-miterlimit: 10; 
 }
 
+.monster.animated {
+	.monster-top {
+		@include browsers(eatBuilding 3s infinite ease-in-out);
+	}
+	.monster-hand {
+		@include browsers(holdBuilding 3s infinite ease-in-out);
+	}
+	.monster-tale {
+		@include browsers(walkBuilding 3s infinite ease-in-out);
+	}
+}
+
 .bp4 {
 	fill: none;
 	stroke: $blue-2;
@@ -69,11 +100,23 @@
 	stroke-miterlimit: 10;
 }
 
+.broken-parts {
+	opacity: 0;
+	&.animated {
+		opacity: 1;
+		@include browsers(showBroken 2s 1 ease-in);
+	}
+}
+
 .tc3 {
 	fill: $blue-4;
 	stroke: #a6aabf;
 	stroke-width:.3;
 	stroke-miterlimit:10;
+}
+
+.paper.animated {
+	@include browsers(fallPaper 2s 1 ease-out);
 }
 
 .wo3 {
@@ -93,4 +136,12 @@
 	stroke: #91233f;
 	stroke-width: 5;
 	stroke-miterlimit: 10;
+}
+
+.leader {
+	opacity: 0;
+	&.animated {
+		opacity: 1;
+		@include browsers(showX 2s 1 linear);
+	}
 }

@@ -64,7 +64,62 @@
 }
 
 @include animation(showGraph) {
-  from { @include transform(scaleY(0) translateY(-200px)); transform-origin: bottom; }
-  to { @include transform(scaleY(1) translateY(0px)); transform-origin: bottom; }
+  from { @include transform(scaleY(0)); transform-origin: bottom; transform-box: fill-box; }
+  to { @include transform(scaleY(1)); transform-origin: bottom; transform-box: fill-box; }
 }
+
+@include animation(opacity-fast) {  
+  0% { opacity: 0; } 
+  50% { opacity: 0; }
+  55% { opacity: 1; }
+  100% { opacity: 1; }
+}
+
+@include animation(megaphoneShake) {
+  0% { @include transform(rotateZ(0deg)); }
+  50% { @include transform(rotateZ(-3deg)); }
+  100% { @include transform(rotateZ(0deg)); }
+}
+
+@include animation(spinPhone) {
+  from { @include transform(rotateZ(0deg)); transform-origin: center center; transform-box: fill-box; }
+  to { @include transform(rotateZ(360deg)); transform-origin: center center; transform-box: fill-box; }
+}
+
+@include animation(showX) {  
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@include animation(eatBuilding) {
+  0% { @include transform(translateY(0px)); }
+  50% { @include transform(translateY(20px)); }
+  100% { @include transform(translateY(0px)); }
+}
+
+@include animation(holdBuilding) {
+  0% { @include transform(translateX(-5px)); }
+  50% { @include transform(translateX(0px)); }
+  100% { @include transform(translateX(-5px)); }
+}
+
+@include animation(walkBuilding) {
+  0% { @include transform(translateX(0px)); }
+  50% { @include transform(translateX(-7px)); }
+  100% { @include transform(translateX(0px)); }
+}
+
+@include animation(showBroken) {  
+  0% { opacity: 0; }
+  20% { opacity: 1; }
+  80% { opacity: 1; }
+  100% { opacity: 0; }
+}
+
+@include animation(fallPaper) {
+  0% { @include transform(translateY(-10px)); }
+  45% { @include transform(translateY(12px)); }
+  100% { @include transform(translateY(12px)); }
+}
+
 

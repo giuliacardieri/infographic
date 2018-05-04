@@ -115,7 +115,20 @@ $(document).ready(function() {
   				$('.animated-element').not('.clock, .feedback, .graph, .trophy').removeClass('animated');
     		}
   	}
-  	else {
+  	else if ($('.section-myths').offset().top <= $(window).scrollTop()) {
+			$('.megaphone').addClass('animated');
+			$('.rounded-telephone').addClass('animated');
+			if ($('.myth-wrapper__myth-item.myth-2').offset().top <= $(window).scrollTop())
+				$('.x-calendar').addClass('animated');
+			if ($('.myth-wrapper__myth-item.myth-3').offset().top <= $(window).scrollTop())
+				$('.monster').addClass('animated');
+			if ($('.myth-wrapper__myth-item.myth-4').offset().top <= $(window).scrollTop())
+				$('.broken-parts').addClass('animated');
+			if ($('.myth-wrapper__myth-item.myth-5').offset().top <= $(window).scrollTop())
+				$('.paper').addClass('animated');
+			if ($('.myth-wrapper__myth-item.myth-6').offset().top <= $(window).scrollTop())
+				$('.leader').addClass('animated');
+  	}	else {
   		$('.animated-element').removeClass('animated');
   	}
   });
