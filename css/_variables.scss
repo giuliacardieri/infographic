@@ -3,3 +3,10 @@ $arrow-distance: 175px;
 
 // sections
 $padding-lateral: 100px; 
+$padding-lateral-sm: $padding-lateral/4;
+
+// responsive
+$max-sm: 767px;
+$min-md: 768px;
+$max-md: 991px;
+$min-lg: 992px;

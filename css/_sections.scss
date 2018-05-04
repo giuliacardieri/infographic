@@ -1,4 +1,7 @@
 section {
 	padding: 50px $padding-lateral;
 	text-align: center;
+	@media (max-width: $max-sm) {
+		padding: 25px $padding-lateral-sm;
+	}
 }

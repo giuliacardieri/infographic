@@ -1,11 +1,28 @@
  /* myths */
  .myth-wrapper__myth-item {
+ 	align-items: center;
  	display: flex;
  	margin: 25px 0;
+	@media (max-width: $max-sm) {
+		border-bottom: 2px dashed $white-1;
+		flex-direction: column;
+		padding-bottom: 25px;
+		&:last-child {
+			border: 0;
+		}
+	}
+	&.myth-item__state--opposite-side {
+		@media (max-width: $max-sm) {
+			flex-direction: column-reverse;
+		}
+	}
  }
 
  .myth-item__illustration-wrapper {
  	width: 50%;
+	@media (max-width: $max-sm) {
+		width: 100%;
+	}
  }
 
  .myth-item__text-wrapper {
@@ -13,9 +30,18 @@
  	padding: 0 50px;
  	width: 50%;
  	&.left-align {
- 		text-align: left;
+ 		text-align: left;	
+		@media (max-width: $max-sm) {
+			text-align: justify;
+		}
  	}
  	&.right-align {
- 		text-align: right;
+ 		text-align: right;	
+		@media (max-width: $max-sm) {
+			text-align: justify;
+		}
  	}
+	@media (max-width: $max-sm) {
+		width: 90%;
+	}
  }

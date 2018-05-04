@@ -2,13 +2,22 @@
 .section-benefits__illustration-wrapper {
 	margin-left: calc(-1 * #{$padding-lateral});
 	width: 100vw;
+	@media (max-width: $max-sm) {
+		margin-left: calc(-1 * #{$padding-lateral-sm});
+	}
 }
 
 .section-benefits__trophy-wrapper {
 	border-top: 2px dashed $beige-1;
 	display: flex;
 	margin-top: 40px;
-	padding: 50px 10% 0 10%;
+	padding: 50px 100px 0 100px;
+	@media (max-width: $max-sm) {
+		padding: 25px 0 0 0;
+	}
+	@media (max-width: $max-md) {
+		padding: 50px 0 0 0;
+	}
 }
 
 .trophy-wrapper__img-wrapper {
@@ -18,10 +27,16 @@
 		border-radius: 100%;
 		overflow-y: hidden;
 	}
+	@media (max-width: $max-sm) {
+		max-width: 400px;
+	}
 }
 
 .trophy-wrapper__text-wrapper {
 	align-self: center;
 	padding: 0 50px;
 	text-align: left;
+	@media (max-width: $max-sm) {
+		padding: 0 25px;
+	}
 }

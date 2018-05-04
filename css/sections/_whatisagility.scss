@@ -1,13 +1,19 @@
 /* what is agility */
 .section-whatisagility__illustration-wrapper {
 	margin: 25px 0 25px calc(-1 * #{$padding-lateral});
-	width: 100vw;
+	width: 100vw;	
+	@media (max-width: $max-sm) {
+		margin: 25px 0 25px calc(-1 * #{$padding-lateral-sm});
+	}
 }
 
 .section-whatisagility__circle-wrapper {
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	@media (max-width: $max-sm) {
+		flex-direction: column;
+	}
 }
 
 @for $i from 1 through 10 {  
@@ -37,7 +43,10 @@
 	justify-content: center;
 	margin-left: 5vw;
 	margin-right: 5vw;
-
+	@media (max-width: $max-sm) {
+		margin: 10px 0;
+		width: 150px;
+	}	
 }
 
 .circle__p {

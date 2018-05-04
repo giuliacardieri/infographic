@@ -2,6 +2,9 @@
 .section-medal__slider {
 	margin: 40px 0;
 	position: relative;
+	@media (max-width: $max-sm) {
+		margin: 25px 0;
+	}
 }
 
 .slider__svg {

@@ -7,6 +7,18 @@ h1 {
 	.content__span--colored-blue {
 		color: $blue-1;
 		font-size: 48px;
+		@media (max-width: $max-sm) {
+			font-size: 30px;
+		}
+		@media (max-width: $max-md) {
+			font-size: 36px;
+		}
+	}
+	@media (max-width: $max-sm) {
+		font-size: 44px;
+	}
+	@media (max-width: $max-md) {
+		font-size: 54px;
 	}
 }
 
@@ -15,18 +27,26 @@ h2 {
 	font-size: 36px;
 	font-weight: 400;
 	margin: 0 0 12px 0;
+	@media (max-width: $max-sm) {
+		font-size: 22px;
+	}
 }
 
 h3 {
 	font-size: 26px;
 	font-weight: 300;
 	margin: 0;
-
+	@media (max-width: $max-sm) {
+		font-size: 18px;
+	}
 }
 
 p {
 	font-size: 18px;
 	margin: 0;
+	@media (max-width: $max-sm) {
+		font-size: 16px;
+	}
 }
 
 .content__p--align-justify {

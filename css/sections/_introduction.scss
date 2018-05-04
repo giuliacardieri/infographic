@@ -1,8 +1,10 @@
 /* introduction */
 .section-introduction {
 	background-color: $blue-2;
-	height: 600px;
 	padding: 35px $padding-lateral;
+	@media (max-width: $max-sm) {
+		padding: 35px $padding-lateral-sm;
+	}
 }
 
 .section__centered-text-group {
@@ -14,5 +16,12 @@
 
 .centered-text-group__content {
 	margin-top: $arrow-distance;
-	width: 450px;
+	width: 35vw;
+	@media (max-width: $max-sm) {
+		margin: $arrow-distance auto 0 auto;
+		width: 80vw;
+	}
+	@media (max-width: $max-md) {
+		width: 45vw;
+	}
 }

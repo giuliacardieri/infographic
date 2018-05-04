@@ -151,21 +151,42 @@ h1 {
   h1 .content__span--colored-blue {
     color: #152168;
     font-size: 48px; }
+    @media (max-width: 767px) {
+      h1 .content__span--colored-blue {
+        font-size: 30px; } }
+    @media (max-width: 991px) {
+      h1 .content__span--colored-blue {
+        font-size: 36px; } }
+  @media (max-width: 767px) {
+    h1 {
+      font-size: 44px; } }
+  @media (max-width: 991px) {
+    h1 {
+      font-size: 54px; } }
 
 h2 {
   font-family: 'Asap';
   font-size: 36px;
   font-weight: 400;
   margin: 0 0 12px 0; }
+  @media (max-width: 767px) {
+    h2 {
+      font-size: 22px; } }
 
 h3 {
   font-size: 26px;
   font-weight: 300;
   margin: 0; }
+  @media (max-width: 767px) {
+    h3 {
+      font-size: 18px; } }
 
 p {
   font-size: 18px;
   margin: 0; }
+  @media (max-width: 767px) {
+    p {
+      font-size: 16px; } }
 
 .content__p--align-justify {
   text-align: justify; }
@@ -223,12 +244,17 @@ button {
 section {
   padding: 50px 100px;
   text-align: center; }
+  @media (max-width: 767px) {
+    section {
+      padding: 25px 25px; } }
 
 /* introduction */
 .section-introduction {
   background-color: #4150BB;
-  height: 600px;
   padding: 35px 100px; }
+  @media (max-width: 767px) {
+    .section-introduction {
+      padding: 35px 25px; } }
 
 .section__centered-text-group {
   align-items: center;
@@ -238,87 +264,100 @@ section {
 
 .centered-text-group__content {
   margin-top: 175px;
-  width: 450px; }
+  width: 35vw; }
+  @media (max-width: 767px) {
+    .centered-text-group__content {
+      margin: 175px auto 0 auto;
+      width: 80vw; } }
+  @media (max-width: 991px) {
+    .centered-text-group__content {
+      width: 45vw; } }
 
 /* what is agility */
 .section-whatisagility__illustration-wrapper {
   margin: 25px 0 25px calc(-1 * 100px);
   width: 100vw; }
+  @media (max-width: 767px) {
+    .section-whatisagility__illustration-wrapper {
+      margin: 25px 0 25px calc(-1 * 25px); } }
 
 .section-whatisagility__circle-wrapper {
   align-items: center;
   display: flex;
   justify-content: center; }
+  @media (max-width: 767px) {
+    .section-whatisagility__circle-wrapper {
+      flex-direction: column; } }
 
 g.cloud1 {
-  animation: walkthecloud 125s -219s linear infinite;
-  -webkit-animation: walkthecloud 125s -219s linear infinite;
-  -moz-animation: walkthecloud 125s -219s linear infinite;
-  -ms-animation: walkthecloud 125s -219s linear infinite;
-  -o-animation: walkthecloud 125s -219s linear infinite; }
+  animation: walkthecloud 142s -1s linear infinite;
+  -webkit-animation: walkthecloud 142s -1s linear infinite;
+  -moz-animation: walkthecloud 142s -1s linear infinite;
+  -ms-animation: walkthecloud 142s -1s linear infinite;
+  -o-animation: walkthecloud 142s -1s linear infinite; }
 
 g.cloud2 {
-  animation: walkthecloud 103s -106s linear infinite;
-  -webkit-animation: walkthecloud 103s -106s linear infinite;
-  -moz-animation: walkthecloud 103s -106s linear infinite;
-  -ms-animation: walkthecloud 103s -106s linear infinite;
-  -o-animation: walkthecloud 103s -106s linear infinite; }
+  animation: walkthecloud 112s -197s linear infinite;
+  -webkit-animation: walkthecloud 112s -197s linear infinite;
+  -moz-animation: walkthecloud 112s -197s linear infinite;
+  -ms-animation: walkthecloud 112s -197s linear infinite;
+  -o-animation: walkthecloud 112s -197s linear infinite; }
 
 g.cloud3 {
-  animation: walkthecloud 145s -108s linear infinite;
-  -webkit-animation: walkthecloud 145s -108s linear infinite;
-  -moz-animation: walkthecloud 145s -108s linear infinite;
-  -ms-animation: walkthecloud 145s -108s linear infinite;
-  -o-animation: walkthecloud 145s -108s linear infinite; }
+  animation: walkthecloud 155s -195s linear infinite;
+  -webkit-animation: walkthecloud 155s -195s linear infinite;
+  -moz-animation: walkthecloud 155s -195s linear infinite;
+  -ms-animation: walkthecloud 155s -195s linear infinite;
+  -o-animation: walkthecloud 155s -195s linear infinite; }
 
 g.cloud4 {
-  animation: walkthecloud 101s -138s linear infinite;
-  -webkit-animation: walkthecloud 101s -138s linear infinite;
-  -moz-animation: walkthecloud 101s -138s linear infinite;
-  -ms-animation: walkthecloud 101s -138s linear infinite;
-  -o-animation: walkthecloud 101s -138s linear infinite; }
+  animation: walkthecloud 121s -110s linear infinite;
+  -webkit-animation: walkthecloud 121s -110s linear infinite;
+  -moz-animation: walkthecloud 121s -110s linear infinite;
+  -ms-animation: walkthecloud 121s -110s linear infinite;
+  -o-animation: walkthecloud 121s -110s linear infinite; }
 
 g.cloud5 {
-  animation: walkthecloud 171s -149s linear infinite;
-  -webkit-animation: walkthecloud 171s -149s linear infinite;
-  -moz-animation: walkthecloud 171s -149s linear infinite;
-  -ms-animation: walkthecloud 171s -149s linear infinite;
-  -o-animation: walkthecloud 171s -149s linear infinite; }
+  animation: walkthecloud 131s -102s linear infinite;
+  -webkit-animation: walkthecloud 131s -102s linear infinite;
+  -moz-animation: walkthecloud 131s -102s linear infinite;
+  -ms-animation: walkthecloud 131s -102s linear infinite;
+  -o-animation: walkthecloud 131s -102s linear infinite; }
 
 g.cloud6 {
-  animation: walkthecloud 191s -204s linear infinite;
-  -webkit-animation: walkthecloud 191s -204s linear infinite;
-  -moz-animation: walkthecloud 191s -204s linear infinite;
-  -ms-animation: walkthecloud 191s -204s linear infinite;
-  -o-animation: walkthecloud 191s -204s linear infinite; }
+  animation: walkthecloud 177s -46s linear infinite;
+  -webkit-animation: walkthecloud 177s -46s linear infinite;
+  -moz-animation: walkthecloud 177s -46s linear infinite;
+  -ms-animation: walkthecloud 177s -46s linear infinite;
+  -o-animation: walkthecloud 177s -46s linear infinite; }
 
 g.cloud7 {
-  animation: walkthecloud 168s -133s linear infinite;
-  -webkit-animation: walkthecloud 168s -133s linear infinite;
-  -moz-animation: walkthecloud 168s -133s linear infinite;
-  -ms-animation: walkthecloud 168s -133s linear infinite;
-  -o-animation: walkthecloud 168s -133s linear infinite; }
+  animation: walkthecloud 155s -52s linear infinite;
+  -webkit-animation: walkthecloud 155s -52s linear infinite;
+  -moz-animation: walkthecloud 155s -52s linear infinite;
+  -ms-animation: walkthecloud 155s -52s linear infinite;
+  -o-animation: walkthecloud 155s -52s linear infinite; }
 
 g.cloud8 {
-  animation: walkthecloud 125s -229s linear infinite;
-  -webkit-animation: walkthecloud 125s -229s linear infinite;
-  -moz-animation: walkthecloud 125s -229s linear infinite;
-  -ms-animation: walkthecloud 125s -229s linear infinite;
-  -o-animation: walkthecloud 125s -229s linear infinite; }
+  animation: walkthecloud 131s -122s linear infinite;
+  -webkit-animation: walkthecloud 131s -122s linear infinite;
+  -moz-animation: walkthecloud 131s -122s linear infinite;
+  -ms-animation: walkthecloud 131s -122s linear infinite;
+  -o-animation: walkthecloud 131s -122s linear infinite; }
 
 g.cloud9 {
-  animation: walkthecloud 167s -200s linear infinite;
-  -webkit-animation: walkthecloud 167s -200s linear infinite;
-  -moz-animation: walkthecloud 167s -200s linear infinite;
-  -ms-animation: walkthecloud 167s -200s linear infinite;
-  -o-animation: walkthecloud 167s -200s linear infinite; }
+  animation: walkthecloud 139s -93s linear infinite;
+  -webkit-animation: walkthecloud 139s -93s linear infinite;
+  -moz-animation: walkthecloud 139s -93s linear infinite;
+  -ms-animation: walkthecloud 139s -93s linear infinite;
+  -o-animation: walkthecloud 139s -93s linear infinite; }
 
 g.cloud10 {
-  animation: walkthecloud 117s -66s linear infinite;
-  -webkit-animation: walkthecloud 117s -66s linear infinite;
-  -moz-animation: walkthecloud 117s -66s linear infinite;
-  -ms-animation: walkthecloud 117s -66s linear infinite;
-  -o-animation: walkthecloud 117s -66s linear infinite; }
+  animation: walkthecloud 116s -188s linear infinite;
+  -webkit-animation: walkthecloud 116s -188s linear infinite;
+  -moz-animation: walkthecloud 116s -188s linear infinite;
+  -ms-animation: walkthecloud 116s -188s linear infinite;
+  -o-animation: walkthecloud 116s -188s linear infinite; }
 
 .svg__bus {
   animation: vroomvroom 15s linear infinite;
@@ -345,6 +384,10 @@ g.cloud10 {
   justify-content: center;
   margin-left: 5vw;
   margin-right: 5vw; }
+  @media (max-width: 767px) {
+    .circle-wrapper__circle {
+      margin: 10px 0;
+      width: 150px; } }
 
 .circle__p {
   padding: 15px; }
@@ -353,12 +396,21 @@ g.cloud10 {
 .section-benefits__illustration-wrapper {
   margin-left: calc(-1 * 100px);
   width: 100vw; }
+  @media (max-width: 767px) {
+    .section-benefits__illustration-wrapper {
+      margin-left: calc(-1 * 25px); } }
 
 .section-benefits__trophy-wrapper {
   border-top: 2px dashed #f9f9f9;
   display: flex;
   margin-top: 40px;
-  padding: 50px 10% 0 10%; }
+  padding: 50px 100px 0 100px; }
+  @media (max-width: 767px) {
+    .section-benefits__trophy-wrapper {
+      padding: 25px 0 0 0; } }
+  @media (max-width: 991px) {
+    .section-benefits__trophy-wrapper {
+      padding: 50px 0 0 0; } }
 
 .trophy-wrapper__img-wrapper {
   max-width: 300px;
@@ -366,16 +418,25 @@ g.cloud10 {
   .trophy-wrapper__img-wrapper svg {
     border-radius: 100%;
     overflow-y: hidden; }
+  @media (max-width: 767px) {
+    .trophy-wrapper__img-wrapper {
+      max-width: 400px; } }
 
 .trophy-wrapper__text-wrapper {
   align-self: center;
   padding: 0 50px;
   text-align: left; }
+  @media (max-width: 767px) {
+    .trophy-wrapper__text-wrapper {
+      padding: 0 25px; } }
 
 /* medal */
 .section-medal__slider {
   margin: 40px 0;
   position: relative; }
+  @media (max-width: 767px) {
+    .section-medal__slider {
+      margin: 25px 0; } }
 
 .slider__svg {
   background-color: #f9f9f9;
@@ -420,11 +481,25 @@ g.cloud10 {
 
 /* myths */
 .myth-wrapper__myth-item {
+  align-items: center;
   display: flex;
   margin: 25px 0; }
+  @media (max-width: 767px) {
+    .myth-wrapper__myth-item {
+      border-bottom: 2px dashed #fff;
+      flex-direction: column;
+      padding-bottom: 25px; }
+      .myth-wrapper__myth-item:last-child {
+        border: 0; } }
+  @media (max-width: 767px) {
+    .myth-wrapper__myth-item.myth-item__state--opposite-side {
+      flex-direction: column-reverse; } }
 
 .myth-item__illustration-wrapper {
   width: 50%; }
+  @media (max-width: 767px) {
+    .myth-item__illustration-wrapper {
+      width: 100%; } }
 
 .myth-item__text-wrapper {
   align-self: center;
@@ -432,8 +507,17 @@ g.cloud10 {
   width: 50%; }
   .myth-item__text-wrapper.left-align {
     text-align: left; }
+    @media (max-width: 767px) {
+      .myth-item__text-wrapper.left-align {
+        text-align: justify; } }
   .myth-item__text-wrapper.right-align {
     text-align: right; }
+    @media (max-width: 767px) {
+      .myth-item__text-wrapper.right-align {
+        text-align: justify; } }
+  @media (max-width: 767px) {
+    .myth-item__text-wrapper {
+      width: 90%; } }
 
 @keyframes jumpTheArrow {
   0% {
