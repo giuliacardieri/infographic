@@ -8,6 +8,7 @@ h1 {
 		color: $blue-1;
 		font-size: 48px;
 		@media (max-width: $max-sm) {
+			display: block;
 			font-size: 30px;
 		}
 		@media (max-width: $max-md) {

@@ -10,7 +10,6 @@
 .section__centered-text-group {
 	align-items: center;
 	display: flex;
-	height: 600px;
 	justify-content: center;
 }
 
@@ -18,7 +17,7 @@
 	margin-top: $arrow-distance;
 	width: 35vw;
 	@media (max-width: $max-sm) {
-		margin: $arrow-distance auto 0 auto;
+		margin: $arrow-distance-sm auto 0 auto;
 		width: 80vw;
 	}
 	@media (max-width: $max-md) {
