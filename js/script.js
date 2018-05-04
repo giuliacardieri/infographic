@@ -73,7 +73,7 @@ $(document).ready(function() {
 			
 		// Adjust the slider
 		var width = el.width()+'px';
-		el.find('.resize img').css('width', width);
+		el.find('.resize .slider__svg').css('width', width);
 			
 		// Bind dragging events
 		dragSlider(el.find('.handle'), el.find('.resize'), el);
@@ -141,7 +141,7 @@ $(window).resize(function() {
   $('.section-medal__slider').each(function() {
     var el = $(this);
     var width = el.width()+'px';
-    el.find('.resize img').css('width', width);
+    el.find('.resize .slider__svg').css('width', width);
   });
 	
 });

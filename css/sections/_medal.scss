@@ -4,11 +4,14 @@
 	position: relative;
 }
 
-.slider__img {
+.slider__svg {
 	background-color: $beige-1;
 	display: block;
 	height: 100%;
-	width: 100%;
+	width: 100%;	
+	svg {
+		width: 100%;
+	}
 }
 
 .section-medal__slider .resize {
